@@ -1,0 +1,68 @@
+body {
+  width: 100%;
+  margin-top: 50;
+  background-color: #FFDAB9;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  background-image: linear-gradient( 115deg, rgba(205, 92, 92, 0.8), rgba(240, 128, 128, 0.7) ), url("https://best-mother.ru/articles/wp-content/uploads/2020/09/original.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+form {
+  background-color: rgba(139, 0, 0, 0.65);
+  width: 50%;
+  max-width: 750px;
+  min-width: 600px;
+  display: center;
+  padding: 2.5rem;
+  border-radius: 0.25rem;
+  margin: 0 auto;
+}
+
+h1, p {
+  text-align: center;
+  margin-bottom: 50;
+}
+
+p {
+  font-style: italic;
+  font-weight: 200;
+  text-shadow: 1px 1px 1px rgb(0 0 0 / 40%);
+}
+
+label {
+  display: block;
+  color: white;
+  align-items: center;
+}
+
+input, select, textarea {
+  background-color: white;
+  margin-top: 5px;
+  margin-bottom: 5px;
+	width: 100%;
+  min-height: 3em;
+  border-radius: 0.25rem;
+
+}
+
+.form-group {
+    margin: 15px;
+    padding: 0.35rem;
+}
+
+.inline {
+  width: unset;
+  margin: 5px;
+  vertical-align: middle;
+}
+
+.submit {
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+  background-color: #66CDAA;
+}
